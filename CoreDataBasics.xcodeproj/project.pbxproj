@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C1E3E5F128EF67970045A0AE /* CoreDataBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3E5F028EF67970045A0AE /* CoreDataBasicsApp.swift */; };
-		C1E3E5F328EF67970045A0AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3E5F228EF67970045A0AE /* ContentView.swift */; };
+		C114FA4028FDBD2900B26FE2 /* ModifyBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C114FA3F28FDBD2900B26FE2 /* ModifyBookView.swift */; };
+		C1CD997728F8B937004D50BA /* RowBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD997628F8B937004D50BA /* RowBook.swift */; };
+		C1CD997928F8B94E004D50BA /* (4) InsertBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD997828F8B94E004D50BA /* (4) InsertBookView.swift */; };
+		C1CD997B28F8BA4A004D50BA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD997A28F8BA4A004D50BA /* Extensions.swift */; };
+		C1CD997D28F8BD44004D50BA /* AuthorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD997C28F8BD44004D50BA /* AuthorsView.swift */; };
+		C1CD997F28F8BDD7004D50BA /* InsertAuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD997E28F8BDD7004D50BA /* InsertAuthorView.swift */; };
+		C1E3E5F128EF67970045A0AE /* (2) CoreDataBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3E5F028EF67970045A0AE /* (2) CoreDataBasicsApp.swift */; };
+		C1E3E5F328EF67970045A0AE /* (3) ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3E5F228EF67970045A0AE /* (3) ContentView.swift */; };
 		C1E3E5F528EF67980045A0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E3E5F428EF67980045A0AE /* Assets.xcassets */; };
 		C1E3E5F828EF67980045A0AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E3E5F728EF67980045A0AE /* Preview Assets.xcassets */; };
+		C1E3E60028EF67D00045A0AE /* Stash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1E3E5FE28EF67D00045A0AE /* Stash.xcdatamodeld */; };
+		C1E3E60328EF77A80045A0AE /* (1) ApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3E60228EF77A80045A0AE /* (1) ApplicationData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C114FA3F28FDBD2900B26FE2 /* ModifyBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyBookView.swift; sourceTree = "<group>"; };
+		C1CD997628F8B937004D50BA /* RowBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowBook.swift; sourceTree = "<group>"; };
+		C1CD997828F8B94E004D50BA /* (4) InsertBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(4) InsertBookView.swift"; sourceTree = "<group>"; };
+		C1CD997A28F8BA4A004D50BA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C1CD997C28F8BD44004D50BA /* AuthorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsView.swift; sourceTree = "<group>"; };
+		C1CD997E28F8BDD7004D50BA /* InsertAuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertAuthorView.swift; sourceTree = "<group>"; };
 		C1E3E5ED28EF67970045A0AE /* CoreDataBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1E3E5F028EF67970045A0AE /* CoreDataBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBasicsApp.swift; sourceTree = "<group>"; };
-		C1E3E5F228EF67970045A0AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1E3E5F028EF67970045A0AE /* (2) CoreDataBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(2) CoreDataBasicsApp.swift"; sourceTree = "<group>"; };
+		C1E3E5F228EF67970045A0AE /* (3) ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(3) ContentView.swift"; sourceTree = "<group>"; };
 		C1E3E5F428EF67980045A0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1E3E5F728EF67980045A0AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1E3E5FF28EF67D00045A0AE /* Stash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stash.xcdatamodel; sourceTree = "<group>"; };
+		C1E3E60228EF77A80045A0AE /* (1) ApplicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(1) ApplicationData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,16 @@
 		C1E3E5EF28EF67970045A0AE /* CoreDataBasics */ = {
 			isa = PBXGroup;
 			children = (
-				C1E3E5F028EF67970045A0AE /* CoreDataBasicsApp.swift */,
-				C1E3E5F228EF67970045A0AE /* ContentView.swift */,
+				C1E3E5F028EF67970045A0AE /* (2) CoreDataBasicsApp.swift */,
+				C1E3E5F228EF67970045A0AE /* (3) ContentView.swift */,
+				C114FA3F28FDBD2900B26FE2 /* ModifyBookView.swift */,
+				C1CD997828F8B94E004D50BA /* (4) InsertBookView.swift */,
+				C1CD997C28F8BD44004D50BA /* AuthorsView.swift */,
+				C1CD997E28F8BDD7004D50BA /* InsertAuthorView.swift */,
+				C1CD997628F8B937004D50BA /* RowBook.swift */,
+				C1CD997A28F8BA4A004D50BA /* Extensions.swift */,
+				C1E3E5FE28EF67D00045A0AE /* Stash.xcdatamodeld */,
+				C1E3E60228EF77A80045A0AE /* (1) ApplicationData.swift */,
 				C1E3E5F428EF67980045A0AE /* Assets.xcassets */,
 				C1E3E5F628EF67980045A0AE /* Preview Content */,
 			);
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1E3E5F328EF67970045A0AE /* ContentView.swift in Sources */,
-				C1E3E5F128EF67970045A0AE /* CoreDataBasicsApp.swift in Sources */,
+				C1E3E60328EF77A80045A0AE /* (1) ApplicationData.swift in Sources */,
+				C114FA4028FDBD2900B26FE2 /* ModifyBookView.swift in Sources */,
+				C1E3E60028EF67D00045A0AE /* Stash.xcdatamodeld in Sources */,
+				C1E3E5F328EF67970045A0AE /* (3) ContentView.swift in Sources */,
+				C1E3E5F128EF67970045A0AE /* (2) CoreDataBasicsApp.swift in Sources */,
+				C1CD997928F8B94E004D50BA /* (4) InsertBookView.swift in Sources */,
+				C1CD997D28F8BD44004D50BA /* AuthorsView.swift in Sources */,
+				C1CD997728F8B937004D50BA /* RowBook.swift in Sources */,
+				C1CD997B28F8BA4A004D50BA /* Extensions.swift in Sources */,
+				C1CD997F28F8BDD7004D50BA /* InsertAuthorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +371,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C1E3E5FE28EF67D00045A0AE /* Stash.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C1E3E5FF28EF67D00045A0AE /* Stash.xcdatamodel */,
+			);
+			currentVersion = C1E3E5FF28EF67D00045A0AE /* Stash.xcdatamodel */;
+			path = Stash.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C1E3E5E528EF67970045A0AE /* Project object */;
 }
